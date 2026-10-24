@@ -1,0 +1,7 @@
+A measurement campaign at a wind site usually lasts only one to two years, but the wind varies from year to year. A short campaign might happen to fall in an unusually windy or calm period. Measure-Correlate-Predict (MCP) solves this by relating the short on-site data to a long-term reference dataset.
+
+The steps are: (1) Measure wind at the site for at least 12 months. (2) Correlate the concurrent site data with a long-term reference such as a nearby airport station or a reanalysis dataset like ERA5 or MERRA-2. (3) Predict the long-term wind climate at the site by applying the relationship to the full 10 to 20 year reference record.
+
+Common MCP methods include linear least-squares regression, the variance ratio method, which preserves the variance of the site data and is popular for energy estimates, and matrix or speed-up methods that work by direction sector. The quality of the correlation is judged by the coefficient of determination R squared; for daily averaged data an R squared above 0.8 is generally considered good.
+
+The long-term reference must be consistent over time. Changes in station location, instruments or surroundings create trends that can bias the result. Long-term correction uncertainty is one of the main components of energy yield uncertainty, typically 2 to 4 percent on wind speed.

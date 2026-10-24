@@ -1,0 +1,7 @@
+Wind shear describes how wind speed changes with height above the ground. Near the ground, friction from terrain, trees and buildings slows the wind, so wind speed usually increases with height. This matters because modern turbine hubs sit at 100 to 150 metres, but measurement masts are often shorter, so measured speeds must be extrapolated to hub height.
+
+The most common model is the power law: V2 = V1 x (H2 / H1) ^ alpha, where V1 is the speed measured at height H1, V2 is the speed at height H2 and alpha is the wind shear exponent. A classic default value is alpha = 1/7, about 0.143, for open flat terrain. Over open sea alpha can be about 0.10, while over forests or rough terrain it can exceed 0.25.
+
+Alpha should be calculated from measurements at two or more heights instead of assumed: alpha = ln(V2/V1) / ln(H2/H1). Shear also changes with time of day and season. During stable night-time conditions shear is high, and during sunny afternoons, when the air is well mixed, shear is low. Using a single average alpha can therefore bias the energy estimate.
+
+An alternative is the logarithmic law: V(z) = (u* / k) x ln(z / z0), where z0 is the surface roughness length, u* is the friction velocity and k is the von Karman constant (about 0.4). Typical roughness lengths are 0.0002 m for open water, 0.03 m for open farmland and 0.5 to 1.0 m for forests or suburbs. Extrapolating far above the highest measurement height adds uncertainty, which is why hub-height measurements or LiDAR are preferred.

@@ -1,0 +1,7 @@
+Turbulence intensity (TI) measures how gusty the wind is. It is defined as the standard deviation of wind speed divided by the mean wind speed, usually over 10-minute periods: TI = sigma / V_mean. A TI of 0.10 (10 percent) means the wind speed typically fluctuates by about 10 percent around its mean.
+
+TI is important for two reasons. First, high turbulence increases fatigue loads on blades, the drivetrain and the tower, which can shorten turbine life. Second, turbulence affects the power curve: very high or very low turbulence makes the real power output differ from the reference power curve.
+
+The IEC 61400-1 standard defines turbulence categories using a reference turbulence intensity at 15 m/s: category A (0.16), category B (0.14) and category C (0.12). Turbines are certified for a wind class and a turbulence category, so the site must be checked against the turbine's design limits during a site suitability assessment.
+
+Engineers often use the representative TI, which is the mean TI plus 1.28 times the standard deviation of TI (the 90th percentile), for each wind speed bin. TI is higher over rough terrain, in complex hills, and inside a wind farm because of wakes from upstream turbines, called added or effective turbulence.

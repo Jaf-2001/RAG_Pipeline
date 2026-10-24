@@ -1,0 +1,13 @@
+FICTIONAL PROJECT REPORT - created for learning purposes only.
+
+Thoothukudi Ridge Wind Project - Wind Resource and Energy Yield Summary, Revision 2.
+
+Site: The project is located on a coastal ridge about 18 km inland, with mostly open farmland and scattered palmyra trees. The planned layout has 42 turbines of 3.3 MW each, giving 138.6 MW installed capacity, with a hub height of 120 m.
+
+Measurements: An 80 m met mast (Mast TR-01) recorded data from March 2023 to February 2025, and a ground-based LiDAR (unit LR-07) measured up to 200 m from June 2024 onward. Mast data availability after filtering was 96.4 percent. The measured mean wind speed at 80 m was 6.6 m/s.
+
+Wind shear: The site-specific shear exponent between 60 m and 80 m on the mast was 0.18, confirmed by the LiDAR up to 140 m. Using alpha = 0.18, the long-term mean wind speed at the 120 m hub height is 7.1 m/s. Shear is strongly seasonal: about 0.24 during the north-east monsoon nights and about 0.12 during the south-west monsoon.
+
+Long-term correction: ERA5 was used as the long-term reference with the variance ratio MCP method; daily R squared was 0.86. Turbulence: Representative TI at 15 m/s is 0.105, which is within IEC category C.
+
+Energy: Gross energy is 361 GWh/yr. Wake losses are 8.2 percent and total losses are 13.5 percent, giving a P50 net energy of 312 GWh/yr (net capacity factor about 25.7 percent). Total uncertainty is 11.8 percent, giving a P90 (1-year) of 264.8 GWh/yr. The main risk identified is the seasonal shear variation and a planned industrial building 3 km to the south-west.

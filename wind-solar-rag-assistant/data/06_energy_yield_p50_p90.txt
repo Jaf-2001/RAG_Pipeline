@@ -1,0 +1,7 @@
+An energy yield assessment estimates how much electricity a wind farm will produce each year, measured in GWh per year. The gross energy is calculated by combining the long-term wind speed distribution at hub height with the turbine power curve, then a wake model estimates energy lost when turbines shade each other.
+
+The result is expressed as exceedance probabilities. P50 is the annual energy that is expected to be exceeded with 50 percent probability; it is the central or best estimate. P90 is the value exceeded with 90 percent probability, so it is lower and more conservative. Banks use P90, or P99, to size loans because they want confidence that the project can repay debt even in a poor year.
+
+Assuming the uncertainty follows a normal distribution: P90 = P50 x (1 - 1.282 x total uncertainty), where total uncertainty is expressed as a fraction of P50. For example, with a P50 of 300 GWh/yr and a total uncertainty of 10 percent, P90 is 300 x (1 - 0.1282), about 261.5 GWh/yr.
+
+The total uncertainty combines independent sources, usually added as the square root of the sum of squares. Main sources are measurement accuracy, long-term correction, vertical extrapolation (shear), the flow or wake model, inter-annual variability and the power curve. A 1 percent error in wind speed typically causes about a 1.5 to 2 percent error in energy, because power depends on the cube of wind speed.

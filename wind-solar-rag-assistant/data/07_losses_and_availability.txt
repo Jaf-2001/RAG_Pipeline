@@ -1,0 +1,5 @@
+The net energy of a wind farm is the gross energy minus losses. Typical loss categories are: wake losses (5 to 15 percent depending on layout and spacing), turbine availability (about 2 to 4 percent), electrical losses in cables and transformers (1.5 to 3 percent), grid availability and curtailment, environmental losses such as blade icing or degradation, and turbine performance losses when the real power curve is below the warranted one.
+
+Availability is the fraction of time the turbines are ready to generate. A time-based availability of 97 percent means turbines were available 97 percent of the hours. Energy-based availability is more useful because downtime during windy periods costs more energy than downtime in calm periods.
+
+Losses are multiplied, not added: net = gross x (1 - wake) x (1 - availability) x (1 - electrical) and so on. Statistical tools such as Markov chain models can simulate turbine failure and repair sequences to estimate realistic availability losses and their variability.

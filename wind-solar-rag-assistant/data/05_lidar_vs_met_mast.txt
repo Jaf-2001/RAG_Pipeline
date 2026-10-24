@@ -1,0 +1,5 @@
+Wind can be measured with a met mast (a tower with cup anemometers and wind vanes) or with remote sensing devices such as LiDAR and SoDAR. A ground-based LiDAR shoots laser beams into the sky and measures the Doppler shift of light scattered by dust and aerosols to compute wind speed at many heights, typically from 40 m up to 200 m or more.
+
+Advantages of LiDAR: it measures at and above hub height and across the whole rotor, it is quick to install and move, and it needs no tall tower or permits for one. Disadvantages: it can lose data in heavy rain, fog or very clean air with few aerosols, and in complex terrain the flow is not uniform across the scanning cone, which creates measurement errors that need correction, often using flow modelling.
+
+Best practice from IEA Wind Task 32 is to verify a LiDAR against a calibrated reference mast before deployment. Many projects use both: a mast for long, traceable records and a LiDAR to measure shear up to hub height. The data availability target for a measurement campaign is usually above 90 percent after filtering.

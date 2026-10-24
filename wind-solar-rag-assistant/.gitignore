@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments and secrets
+venv/
+.venv/
+.env
+
+# Generated index (rebuilt by ingest.py)
+index/
+*.faiss
+chunks.pkl
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

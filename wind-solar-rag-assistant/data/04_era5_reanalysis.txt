@@ -1,0 +1,5 @@
+ERA5 is the fifth-generation global atmospheric reanalysis produced by ECMWF, the European Centre for Medium-Range Weather Forecasts, as part of the Copernicus Climate Change Service. A reanalysis combines historical observations with a weather model to produce a complete, consistent record of past weather.
+
+ERA5 provides hourly data from 1940 to the present on a grid of about 0.25 by 0.25 degrees, roughly 31 km. It includes wind components at 10 m and 100 m above ground (u10, v10, u100, v100), temperature, pressure and solar radiation. Data can be downloaded free from the Copernicus Climate Data Store using the cdsapi Python package.
+
+In wind resource assessment ERA5 is mainly used as a long-term reference for MCP and for checking inter-annual variability. Because a grid cell is about 31 km wide, ERA5 cannot resolve local terrain effects and often under- or over-estimates absolute wind speeds at a specific site. It should therefore be used to describe long-term trends and variability, not as a replacement for on-site measurements.

@@ -1,0 +1,5 @@
+Solar resource assessment estimates how much sunlight reaches a site. Global Horizontal Irradiance (GHI) is the total sunlight on a flat horizontal surface. It has two parts: Direct Normal Irradiance (DNI), the beam coming straight from the sun, and Diffuse Horizontal Irradiance (DHI), the light scattered by clouds and the sky. They are related by GHI = DNI x cos(solar zenith angle) + DHI.
+
+Photovoltaic plants mainly use GHI and the irradiance on the tilted panel plane (plane of array, POA), while concentrating solar power plants need DNI. Irradiance is measured with pyranometers (GHI, DHI) and pyrheliometers (DNI), and can also be estimated from satellite images, typical uncertainty around 4 to 8 percent for annual GHI.
+
+Performance Ratio (PR) compares actual energy output with the theoretical output from the irradiance received; well-run plants achieve PR of about 75 to 85 percent. Key loss factors include soiling (dust on panels, which can cause 2 to 6 percent loss per year in dusty regions like parts of India without regular cleaning), high cell temperature (output drops about 0.3 to 0.5 percent per degree Celsius above 25 C), inverter losses and shading.

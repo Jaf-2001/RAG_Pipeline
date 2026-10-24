@@ -1,0 +1,22 @@
+[
+  {"question": "What formula is used to extrapolate wind speed to hub height?", "source": "01_wind_shear.txt"},
+  {"question": "What is a typical roughness length for open farmland?", "source": "01_wind_shear.txt"},
+  {"question": "Why is shear higher at night than in the afternoon?", "source": "01_wind_shear.txt"},
+  {"question": "How is turbulence intensity defined?", "source": "02_turbulence_intensity.txt"},
+  {"question": "What are the IEC turbulence categories A, B and C?", "source": "02_turbulence_intensity.txt"},
+  {"question": "What is representative TI?", "source": "02_turbulence_intensity.txt"},
+  {"question": "Why do we need a long-term correction for a one-year measurement campaign?", "source": "03_mcp_long_term_correction.txt"},
+  {"question": "What R squared is considered good for MCP with daily data?", "source": "03_mcp_long_term_correction.txt"},
+  {"question": "What grid resolution does ERA5 have?", "source": "04_era5_reanalysis.txt"},
+  {"question": "Can reanalysis data replace on-site wind measurements?", "source": "04_era5_reanalysis.txt"},
+  {"question": "How does a LiDAR measure wind speed?", "source": "05_lidar_vs_met_mast.txt"},
+  {"question": "What are the weaknesses of LiDAR in complex terrain?", "source": "05_lidar_vs_met_mast.txt"},
+  {"question": "What is the difference between P50 and P90?", "source": "06_energy_yield_p50_p90.txt"},
+  {"question": "How do wind speed errors affect energy errors?", "source": "06_energy_yield_p50_p90.txt"},
+  {"question": "What are typical wake losses in a wind farm?", "source": "07_losses_and_availability.txt"},
+  {"question": "What is the difference between time-based and energy-based availability?", "source": "07_losses_and_availability.txt"},
+  {"question": "What is the relation between GHI, DNI and DHI?", "source": "08_solar_resource_basics.txt"},
+  {"question": "How much does temperature reduce PV output?", "source": "08_solar_resource_basics.txt"},
+  {"question": "How many turbines are planned at Thoothukudi Ridge?", "source": "09_thoothukudi_ridge_site_report.txt"},
+  {"question": "What shear exponent was measured on mast TR-01?", "source": "09_thoothukudi_ridge_site_report.txt"}
+]

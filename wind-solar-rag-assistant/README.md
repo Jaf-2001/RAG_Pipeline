@@ -50,9 +50,9 @@ Retrieval evaluated on 20 labelled questions ([`eval/questions.json`](eval/quest
 
 | Search method | Hit@5 | MRR |
 |---|---:|---:|
-| Vector (FAISS) | X% | X.XX |
-| Keyword (BM25) | X% | X.XX |
-| **Hybrid (RRF)** | **X%** | **X.XX** |
+| Vector (FAISS) | 100% | 1.00 |
+| Keyword (BM25) | 100% | 0.95 |
+| **Hybrid (RRF)** | **100%** | **1.00** |
 
 ![Evaluation results](assets/evaluation_results.png)
 
